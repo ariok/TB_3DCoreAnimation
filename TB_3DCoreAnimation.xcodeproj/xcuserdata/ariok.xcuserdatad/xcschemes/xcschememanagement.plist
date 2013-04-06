@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TB_3DPlanes.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>A51559B816F9D8ED00C80318</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A59947AA16FC608000DCC758</key>
 		<dict>
 			<key>primary</key>
 			<true/>

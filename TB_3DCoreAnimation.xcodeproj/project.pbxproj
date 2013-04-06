@@ -19,6 +19,18 @@
 		A51559D616F9D8ED00C80318 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A51559D516F9D8ED00C80318 /* ViewController.m */; };
 		A51559D916F9D8ED00C80318 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A51559D716F9D8ED00C80318 /* ViewController.xib */; };
 		A51559E016F9D94A00C80318 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51559DF16F9D94A00C80318 /* QuartzCore.framework */; };
+		A59947AC16FC608000DCC758 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51559BC16F9D8ED00C80318 /* UIKit.framework */; };
+		A59947AD16FC608000DCC758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51559BE16F9D8ED00C80318 /* Foundation.framework */; };
+		A59947AE16FC608000DCC758 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51559C016F9D8ED00C80318 /* CoreGraphics.framework */; };
+		A59947B416FC608000DCC758 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A59947B216FC608000DCC758 /* InfoPlist.strings */; };
+		A59947B616FC608000DCC758 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A59947B516FC608000DCC758 /* main.m */; };
+		A59947BC16FC608000DCC758 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A59947BB16FC608000DCC758 /* Default.png */; };
+		A59947BE16FC608000DCC758 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A59947BD16FC608000DCC758 /* Default@2x.png */; };
+		A59947C016FC608000DCC758 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A59947BF16FC608000DCC758 /* Default-568h@2x.png */; };
+		A59947CC16FC60C200DCC758 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A59947CB16FC60C200DCC758 /* AppDelegate.m */; };
+		A59947CF16FC60CB00DCC758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59947CE16FC60CB00DCC758 /* ViewController.m */; };
+		A59947D116FC60E300DCC758 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A59947D016FC60E300DCC758 /* ViewController.xib */; };
+		A59947D216FC610500DCC758 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51559DF16F9D94A00C80318 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +51,19 @@
 		A51559D516F9D8ED00C80318 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A51559D816F9D8ED00C80318 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		A51559DF16F9D94A00C80318 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A59947AB16FC608000DCC758 /* TB_3DPlanes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TB_3DPlanes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59947B116FC608000DCC758 /* TB_3DPlanes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TB_3DPlanes-Info.plist"; sourceTree = "<group>"; };
+		A59947B316FC608000DCC758 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A59947B516FC608000DCC758 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A59947B716FC608000DCC758 /* TB_3DPlanes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TB_3DPlanes-Prefix.pch"; sourceTree = "<group>"; };
+		A59947BB16FC608000DCC758 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A59947BD16FC608000DCC758 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A59947BF16FC608000DCC758 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A59947CA16FC60C200DCC758 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A59947CB16FC60C200DCC758 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A59947CD16FC60CB00DCC758 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A59947CE16FC60CB00DCC758 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A59947D016FC60E300DCC758 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +78,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A59947A816FC608000DCC758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59947D216FC610500DCC758 /* QuartzCore.framework in Frameworks */,
+				A59947AC16FC608000DCC758 /* UIKit.framework in Frameworks */,
+				A59947AD16FC608000DCC758 /* Foundation.framework in Frameworks */,
+				A59947AE16FC608000DCC758 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +97,7 @@
 			children = (
 				A51559DF16F9D94A00C80318 /* QuartzCore.framework */,
 				A51559C216F9D8ED00C80318 /* TB_3DCoreAnimation */,
+				A59947AF16FC608000DCC758 /* TB_3DPlanes */,
 				A51559BB16F9D8ED00C80318 /* Frameworks */,
 				A51559BA16F9D8ED00C80318 /* Products */,
 			);
@@ -70,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				A51559B916F9D8ED00C80318 /* TB_3DCoreAnimation.app */,
+				A59947AB16FC608000DCC758 /* TB_3DPlanes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +149,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A59947AF16FC608000DCC758 /* TB_3DPlanes */ = {
+			isa = PBXGroup;
+			children = (
+				A59947CA16FC60C200DCC758 /* AppDelegate.h */,
+				A59947CB16FC60C200DCC758 /* AppDelegate.m */,
+				A59947CD16FC60CB00DCC758 /* ViewController.h */,
+				A59947CE16FC60CB00DCC758 /* ViewController.m */,
+				A59947D016FC60E300DCC758 /* ViewController.xib */,
+				A59947B016FC608000DCC758 /* Supporting Files */,
+			);
+			path = TB_3DPlanes;
+			sourceTree = "<group>";
+		};
+		A59947B016FC608000DCC758 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A59947B116FC608000DCC758 /* TB_3DPlanes-Info.plist */,
+				A59947B216FC608000DCC758 /* InfoPlist.strings */,
+				A59947B516FC608000DCC758 /* main.m */,
+				A59947B716FC608000DCC758 /* TB_3DPlanes-Prefix.pch */,
+				A59947BB16FC608000DCC758 /* Default.png */,
+				A59947BD16FC608000DCC758 /* Default@2x.png */,
+				A59947BF16FC608000DCC758 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +194,23 @@
 			name = TB_3DCoreAnimation;
 			productName = TB_3DCoreAnimation;
 			productReference = A51559B916F9D8ED00C80318 /* TB_3DCoreAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A59947AA16FC608000DCC758 /* TB_3DPlanes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59947C916FC608000DCC758 /* Build configuration list for PBXNativeTarget "TB_3DPlanes" */;
+			buildPhases = (
+				A59947A716FC608000DCC758 /* Sources */,
+				A59947A816FC608000DCC758 /* Frameworks */,
+				A59947A916FC608000DCC758 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TB_3DPlanes;
+			productName = TB_3DPlanes;
+			productReference = A59947AB16FC608000DCC758 /* TB_3DPlanes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,6 +235,7 @@
 			projectRoot = "";
 			targets = (
 				A51559B816F9D8ED00C80318 /* TB_3DCoreAnimation */,
+				A59947AA16FC608000DCC758 /* TB_3DPlanes */,
 			);
 		};
 /* End PBXProject section */
@@ -170,6 +253,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A59947A916FC608000DCC758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59947B416FC608000DCC758 /* InfoPlist.strings in Resources */,
+				A59947BC16FC608000DCC758 /* Default.png in Resources */,
+				A59947BE16FC608000DCC758 /* Default@2x.png in Resources */,
+				A59947C016FC608000DCC758 /* Default-568h@2x.png in Resources */,
+				A59947D116FC60E300DCC758 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -180,6 +275,16 @@
 				A51559C916F9D8ED00C80318 /* main.m in Sources */,
 				A51559CD16F9D8ED00C80318 /* AppDelegate.m in Sources */,
 				A51559D616F9D8ED00C80318 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59947A716FC608000DCC758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59947B616FC608000DCC758 /* main.m in Sources */,
+				A59947CC16FC60C200DCC758 /* AppDelegate.m in Sources */,
+				A59947CF16FC60CB00DCC758 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +305,14 @@
 				A51559D816F9D8ED00C80318 /* en */,
 			);
 			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		A59947B216FC608000DCC758 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A59947B316FC608000DCC758 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,6 +396,30 @@
 			};
 			name = Release;
 		};
+		A59947C716FC608000DCC758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TB_3DPlanes/TB_3DPlanes-Prefix.pch";
+				INFOPLIST_FILE = "TB_3DPlanes/TB_3DPlanes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A59947C816FC608000DCC758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TB_3DPlanes/TB_3DPlanes-Prefix.pch";
+				INFOPLIST_FILE = "TB_3DPlanes/TB_3DPlanes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -303,6 +440,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		A59947C916FC608000DCC758 /* Build configuration list for PBXNativeTarget "TB_3DPlanes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59947C716FC608000DCC758 /* Debug */,
+				A59947C816FC608000DCC758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
