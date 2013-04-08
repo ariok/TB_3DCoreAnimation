@@ -31,6 +31,10 @@
 		A59947CF16FC60CB00DCC758 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59947CE16FC60CB00DCC758 /* ViewController.m */; };
 		A59947D116FC60E300DCC758 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A59947D016FC60E300DCC758 /* ViewController.xib */; };
 		A59947D216FC610500DCC758 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51559DF16F9D94A00C80318 /* QuartzCore.framework */; };
+		A5BB31AA1712A63600B4C452 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BB31A91712A63600B4C452 /* Icon.png */; };
+		A5BB31AC1712A63900B4C452 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BB31AB1712A63900B4C452 /* Icon@2x.png */; };
+		A5BB31AD1712A64400B4C452 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BB31A91712A63600B4C452 /* Icon.png */; };
+		A5BB31AE1712A64700B4C452 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BB31AB1712A63900B4C452 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,8 @@
 		A59947CD16FC60CB00DCC758 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A59947CE16FC60CB00DCC758 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A59947D016FC60E300DCC758 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		A5BB31A91712A63600B4C452 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A5BB31AB1712A63900B4C452 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,8 @@
 		A51559B016F9D8ED00C80318 = {
 			isa = PBXGroup;
 			children = (
+				A5BB31AB1712A63900B4C452 /* Icon@2x.png */,
+				A5BB31A91712A63600B4C452 /* Icon.png */,
 				A51559DF16F9D94A00C80318 /* QuartzCore.framework */,
 				A51559C216F9D8ED00C80318 /* TB_3DCoreAnimation */,
 				A59947AF16FC608000DCC758 /* TB_3DPlanes */,
@@ -250,6 +258,8 @@
 				A51559D116F9D8ED00C80318 /* Default@2x.png in Resources */,
 				A51559D316F9D8ED00C80318 /* Default-568h@2x.png in Resources */,
 				A51559D916F9D8ED00C80318 /* ViewController.xib in Resources */,
+				A5BB31AA1712A63600B4C452 /* Icon.png in Resources */,
+				A5BB31AC1712A63900B4C452 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +272,8 @@
 				A59947BE16FC608000DCC758 /* Default@2x.png in Resources */,
 				A59947C016FC608000DCC758 /* Default-568h@2x.png in Resources */,
 				A59947D116FC60E300DCC758 /* ViewController.xib in Resources */,
+				A5BB31AD1712A64400B4C452 /* Icon.png in Resources */,
+				A5BB31AE1712A64700B4C452 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +460,7 @@
 				A59947C816FC608000DCC758 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
