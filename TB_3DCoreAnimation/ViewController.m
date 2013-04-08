@@ -27,6 +27,7 @@
     screenWidth = screenSize.height;
     screenHeigth = screenSize.width-20;
     
+    /* Remove comments from the next rows to be able to follow the tutorial */
     [self A_singlePlane];
     //[self B_singlePlanePerspective];
     //[self C_transformationsChain];
